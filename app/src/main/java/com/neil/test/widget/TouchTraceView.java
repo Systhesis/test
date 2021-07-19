@@ -1,4 +1,4 @@
-package com.neil.test;
+package com.neil.test.widget;
 
 import android.content.Context;
 import android.graphics.Canvas;

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout
+    android:id="@+id/dia_root"
+    style="@style/dialog_style"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/dia_close"
+        style="@style/dialog_close_layout_style">
+        <ImageView
+            style="@style/dialog_close_image_style"
+            />
+    </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/dia_title"
+            style="@style/dialog_title_style"
+            />
+
+        <ImageView
+            android:id="@+id/dia_icon"
+            style="@style/dialog_icon_style"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/dia_recycler"
+            style="@style/dialog_recycler_style"
+            />
+
+        <View
+            android:id="@+id/dia_line_middle"
+            style="@style/dialog_line_middle_style"
+            />
+
+
+        <LinearLayout
+            style="@style/dialog_bottom_layout_style"
+            >
+
+                    <!--取消-->
+            <TextView
+                android:id="@+id/dia_cancel"
+                style="@style/dialog_bottom_cancel_text_style"
+                 />
+                    <!--取消和同意分割线-->
+            <View
+                android:id="@+id/dia_line_bottom"
+                style="@style/dialog_line_bottom_style"/>
+                    <!--同意-->
+            <TextView
+                android:id="@+id/dia_confirm"
+                style="@style/dialog_bottom_confirm_text_style" />
+        </LinearLayout>
+
+    </FrameLayout>
+<!--    <LinearLayout-->
+<!--        android:id="@+id/dia_root"-->
+
+<!--        android:layout_width="630dp"-->
+<!--        android:layout_height="512dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:background="@drawable/arc_full"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:orientation="vertical">-->
+
+<!--        &lt;!&ndash;标题&ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/dia_title"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginLeft="14dp"-->
+<!--            android:layout_marginRight="14dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="我是标题"-->
+<!--            android:textColor="#343434"-->
+<!--            android:textSize="@dimen/text_size_dialog" />-->
+<!--        &lt;!&ndash;标题分割线&ndash;&gt;-->
+<!--        <View-->
+<!--            android:visibility="gone"-->
+<!--            android:id="@+id/dia_line_top"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:background="@color/fun_line"/>-->
+
+<!--        &lt;!&ndash;中间内容&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:minHeight="70dp"-->
+<!--            android:orientation="vertical"-->
+<!--            android:padding="14dp">-->
+<!--            &lt;!&ndash;图标&ndash;&gt;-->
+<!--            <ImageView-->
+<!--                android:id="@+id/dia_icon"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:src="@drawable/lib_spinner"/>-->
+<!--            &lt;!&ndash;提示内容文本&ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/dia_msg"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:minHeight="50dp"-->
+<!--                android:text="正文文本正文文本正文文本正文文本"-->
+<!--                android:textColor="#494949"-->
+<!--                android:textSize="@dimen/text_size_dialog" />-->
+<!--            &lt;!&ndash;输入框&ndash;&gt;-->
+<!--            <EditText-->
+<!--                android:id="@+id/dia_edt"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:background="@drawable/arc_rim"-->
+<!--                android:hint="发现新版本"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:paddingTop="5dp"-->
+<!--                android:paddingRight="10dp"-->
+<!--                android:paddingBottom="5dp"-->
+<!--                android:textColor="#494949"-->
+<!--                android:textColorHint="#9a9a9a"-->
+<!--                android:textSize="14sp"-->
+<!--                android:visibility="gone" />-->
+
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/dia_recycler"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash;确认按钮分割线&ndash;&gt;-->
+<!--        <View-->
+<!--            android:id="@+id/dia_line_middle"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:background="@color/fun_line"/>-->
+<!--        &lt;!&ndash;确定按钮&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            &lt;!&ndash;取消&ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/dia_cancel"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:maxLines="1"-->
+<!--                android:text="Cancel"-->
+<!--                android:textColor="#9a9a9a"-->
+<!--                android:textSize="@dimen/text_size_dialog" />-->
+<!--            &lt;!&ndash;取消和同意分割线&ndash;&gt;-->
+<!--            <View-->
+<!--                android:id="@+id/dia_line_bottom"-->
+<!--                android:layout_width="1dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@color/fun_line"/>-->
+<!--            &lt;!&ndash;同意&ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/dia_confirm"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:maxLines="1"-->
+<!--                android:text="Confirm"-->
+<!--                android:textColor="#343434"-->
+<!--                android:textSize="@dimen/text_size_dialog" />-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout-->
+

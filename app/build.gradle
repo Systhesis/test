@@ -58,4 +58,15 @@ dependencies {
     implementation 'com.uber.autodispose2:autodispose-android:2.0.0'
     implementation 'com.uber.autodispose2:autodispose-lifecycle:2.0.0'
     implementation 'com.uber.autodispose2:autodispose-androidx-lifecycle:2.0.0'
+
+    //room
+    def room_version = "2.2.5"
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version" // use kapt for Kotlin
+    // optional - RxJava support for Room
+    implementation "androidx.room:room-rxjava2:$room_version"
+    // optional - Guava support for Room, including Optional and ListenableFuture
+    implementation "androidx.room:room-guava:$room_version"
+    // Test helpers
+    testImplementation "androidx.room:room-testing:$room_version"
 }

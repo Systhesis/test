@@ -9,6 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.ViewDataBinding;
 
+import com.neil.test.base.BaseBindingFragment;
+
 /**
  * @author zhongnan1
  * @time 2021/7/16 14:59

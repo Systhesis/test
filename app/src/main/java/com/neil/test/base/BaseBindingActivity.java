@@ -1,4 +1,4 @@
-package com.neil.test.mvp.base;
+package com.neil.test.base;
 
 import android.os.Bundle;
 
