@@ -15,6 +15,6 @@ import com.neil.test.model.dao.UserDao;
  * @time 2021/7/19 11:03
  *
  */
-@Database(entities = {User.class}, version = 1)
+@Database(entities = {User.class}, version = 1, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
 }

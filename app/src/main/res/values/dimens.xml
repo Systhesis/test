@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--数字键盘dimen -->
+    <dimen name="input_width">110dp</dimen>
+    <dimen name="input_height">110dp</dimen>
+    <dimen name="input_text_size">60sp</dimen>
+    <dimen name="input_text_margin_top">53dp</dimen>
+    <dimen name="input_text_first_margin_start">58dp</dimen>
+    <dimen name="input_text_second_margin_start">186dp</dimen>
+    <dimen name="input_text_third_margin_start">314dp</dimen>
+    <dimen name="input_text_fourth_margin_start">442dp</dimen>
+
+
+    <dimen name="keyboard_width">492dp</dimen>
+    <dimen name="keyboard_height">482dp</dimen>
+    <dimen name="keyboard_margin_top">211dp</dimen>
+    <dimen name="keyboard_margin_start">59dp</dimen>
+
+    <dimen name="keyboard_num_padding">6dp</dimen>
+    <dimen name="keyboard_text_size">60sp</dimen>
+
+
+
+    <!-- top layout -->
+    <dimen name="top_layout_width">1920dp</dimen>
+    <dimen name="top_layout_height">261dp</dimen>
+    <dimen name="top_layout_marginTop">0dp</dimen>
+    <dimen name="top_layout_marginStart">0dp</dimen>
+
+    <dimen name="top_image_width">48dp</dimen>
+    <dimen name="top_image_height">48dp</dimen>
+    <dimen name="top_image_marginTop">121dp</dimen>
+    <dimen name="top_image_marginStart">705dp</dimen>
+
+    <dimen name="top_text_width">440dp</dimen>
+    <dimen name="top_text_height">52dp</dimen>
+    <dimen name="top_text_marginTop">118dp</dimen>
+    <dimen name="top_text_marginStart">775dp</dimen>
+    <dimen name="top_text_size">40sp</dimen>
+
+    <dimen name="top_count_down_width">191dp</dimen>
+    <dimen name="top_count_down_height">191dp</dimen>
+    <dimen name="top_count_down_marginTop">20dp</dimen>
+    <dimen name="top_count_down_marginStart">1660dp</dimen>
+
+    <!--left layout -->
+    <dimen name="left_layout_width">609dp</dimen>
+    <dimen name="left_layout_height">730dp</dimen>
+    <dimen name="left_layout_marginTop">263dp</dimen>
+    <dimen name="left_layout_marginStart">290dp</dimen>
+    <dimen name="left_layout_marginEnd">1021dp</dimen>
+    <dimen name="left_layout_marginBottom">87dp</dimen>
+
+    <!--right layout -->
+    <dimen name="right_layout_width">609dp</dimen>
+    <dimen name="right_layout_height">730dp</dimen>
+    <dimen name="right_layout_marginTop">263dp</dimen>
+    <dimen name="right_layout_marginStart">1021dp</dimen>
+    <dimen name="right_layout_marginEnd">290dp</dimen>
+    <dimen name="right_layout_marginBottom">87dp</dimen>
+
+    <!--ready go page -->
+
+    <dimen name="bottom_di_pan_image_layout_width">1920dp</dimen>
+    <dimen name="bottom_di_pan_image_layout_height">419dp</dimen>
+    <dimen name="bottom_di_pan_image_marginStart">0dp</dimen>
+    <dimen name="bottom_di_pan_image_marginTop">661dp</dimen>
+
+    <dimen name="ready_go_car_image_layout_width">328dp</dimen>
+    <dimen name="ready_go_car_image_layout_height">530dp</dimen>
+    <dimen name="ready_go_car_image_marginStart">796dp</dimen>
+    <dimen name="ready_go_car_image_marginTop">381dp</dimen>
+
+    <dimen name="ready_go_location_image_layout_width">188dp</dimen>
+    <dimen name="ready_go_location_image_layout_height">188dp</dimen>
+    <dimen name="ready_go_location_image_marginStart">201dp</dimen>
+    <dimen name="ready_go_location_image_marginTop">466dp</dimen>
+
+    <dimen name="ready_go_route_image_layout_width">1288dp</dimen>
+    <dimen name="ready_go_route_image_layout_height">408dp</dimen>
+    <dimen name="ready_go_route_image_marginStart">280dp</dimen>
+    <dimen name="ready_go_route_image_marginTop">245dp</dimen>
+
+    <!-- car info -->
+    <dimen name="car_info_head_image_layout_width">150dp</dimen>
+    <dimen name="car_info_head_image_layout_height">150dp</dimen>
+    <dimen name="car_info_head_image_marginStart">75dp</dimen>
+    <dimen name="car_info_head_image_marginTop">31dp</dimen>
+
+    <dimen name="car_info_bianhao_text_layout_width">60dp</dimen>
+    <dimen name="car_info_bianhao_text_layout_height">35dp</dimen>
+    <dimen name="car_info_bianhao_text_marginStart">269dp</dimen>
+    <dimen name="car_info_bianhao_text_marginTop">130dp</dimen>
+    <dimen name="car_info_bianhao_text_size">30sp</dimen>
+
+    <dimen name="car_info_no_text_layout_width">250dp</dimen>
+    <dimen name="car_info_no_text_layout_height">160dp</dimen>
+    <dimen name="car_info_no_text_marginStart">323dp</dimen>
+    <dimen name="car_info_no_text_marginTop">31dp</dimen>
+    <dimen name="car_info_no_text_size">140sp</dimen>
+
+    <dimen name="car_info_frame_layout_width">487dp</dimen>
+    <dimen name="car_info_frame_layout_height">475dp</dimen>
+    <dimen name="car_info_frame_marginStart">61dp</dimen>
+    <dimen name="car_info_frame_marginTop">215dp</dimen>
+
+    <dimen name="car_info_bar_code_border_layout_width">438dp</dimen>
+    <dimen name="car_info_bar_code_border_layout_height">427dp</dimen>
+
+    <dimen name="car_info_bar_code_layout_width">417dp</dimen>
+    <dimen name="car_info_bar_code_layout_height">407dp</dimen>
+
+    <dimen name="car_info_center_cons_layout_width">264dp</dimen>
+    <dimen name="car_info_center_cons_layout_height">76dp</dimen>
+
+    <dimen name="car_info_center_cons_image_layout_width">68dp</dimen>
+    <dimen name="car_info_center_cons_image_layout_height">68dp</dimen>
+    <dimen name="car_info_center_cons_image_marginStart">5dp</dimen>
+    <dimen name="car_info_center_cons_image_marginTop">4dp</dimen>
+
+    <dimen name="car_info_center_cons_text_layout_width">160dp</dimen>
+    <dimen name="car_info_center_cons_text_layout_height">52dp</dimen>
+    <dimen name="car_info_center_cons_text_marginStart">85dp</dimen>
+    <dimen name="car_info_center_cons_text_marginTop">12dp</dimen>
+    <dimen name="car_info_center_cons_text_size">20sp</dimen>
+
+    <!-- 放货/取货成功 page -->
+    <dimen name="delivery_pick_suc_car_bg_image_layout_width">1251dp</dimen>
+    <dimen name="delivery_pick_suc_car_bg_image_layout_height">994dp</dimen>
+    <dimen name="delivery_pick_suc_car_bg_image_marginTop">86dp</dimen>
+    <dimen name="delivery_pick_suc_car_bg_image_marginEnd">669dp</dimen>
+
+    <dimen name="frame_layout_suc_car_image_layout_width">519dp</dimen>
+    <dimen name="frame_layout_suc_car_image_layout_height">798dp</dimen>
+    <dimen name="frame_layout_suc_car_image_marginTop">282dp</dimen>
+    <dimen name="frame_layout_suc_car_image_marginStart">294dp</dimen>
+
+    <dimen name="suc_car_bin_small_layout_width">249dp</dimen>
+    <dimen name="suc_car_bin_small_layout_height">141dp</dimen>
+
+    <dimen name="suc_car_bin_large_layout_width">249dp</dimen>
+    <dimen name="suc_car_bin_large_layout_height">286dp</dimen>
+
+    <dimen name="suc_car_6_bin_1_image_marginTop">72dp</dimen>
+    <dimen name="suc_car_6_bin_1_image_marginStart">20dp</dimen>
+
+    <dimen name="suc_car_6_bin_2_image_marginTop">72dp</dimen>
+    <dimen name="suc_car_6_bin_2_image_marginStart">251dp</dimen>
+
+    <dimen name="suc_car_6_bin_3_image_marginTop">217dp</dimen>
+    <dimen name="suc_car_6_bin_3_image_marginStart">20dp</dimen>
+
+    <dimen name="suc_car_6_bin_4_image_marginTop">217dp</dimen>
+    <dimen name="suc_car_6_bin_4_image_marginStart">251dp</dimen>
+
+    <dimen name="suc_car_6_bin_5_image_marginTop">404dp</dimen>
+    <dimen name="suc_car_6_bin_5_image_marginStart">20dp</dimen>
+
+    <dimen name="suc_car_6_bin_6_image_marginTop">404dp</dimen>
+    <dimen name="suc_car_6_bin_6_image_marginStart">251dp</dimen>
+
+    <dimen name="suc_car_8_bin_1_image_marginTop">72dp</dimen>
+    <dimen name="suc_car_8_bin_1_image_marginStart">20dp</dimen>
+
+    <dimen name="suc_car_8_bin_2_image_marginTop">72dp</dimen>
+    <dimen name="suc_car_8_bin_2_image_marginStart">251dp</dimen>
+
+    <dimen name="suc_car_8_bin_3_image_marginTop">217dp</dimen>
+    <dimen name="suc_car_8_bin_3_image_marginStart">20dp</dimen>
+
+    <dimen name="suc_car_8_bin_4_image_marginTop">217dp</dimen>
+    <dimen name="suc_car_8_bin_4_image_marginStart">251dp</dimen>
+
+    <dimen name="suc_car_8_bin_5_image_marginTop">403dp</dimen>
+    <dimen name="suc_car_8_bin_5_image_marginStart">20dp</dimen>
+
+    <dimen name="suc_car_8_bin_6_image_marginTop">403dp</dimen>
+    <dimen name="suc_car_8_bin_6_image_marginStart">251dp</dimen>
+
+    <dimen name="suc_car_8_bin_7_image_marginTop">546dp</dimen>
+    <dimen name="suc_car_8_bin_7_image_marginStart">20dp</dimen>
+
+    <dimen name="suc_car_8_bin_8_image_marginTop">546dp</dimen>
+    <dimen name="suc_car_8_bin_8_image_marginStart">251dp</dimen>
+
+    <dimen name="delivery_pick_suc_count_down_layout_width">191dp</dimen>
+    <dimen name="delivery_pick_suc_count_down_layout_height">191dp</dimen>
+    <dimen name="delivery_pick_suc_count_down_marginTop">80dp</dimen>
+    <dimen name="delivery_pick_suc_count_down_marginStart">1619dp</dimen>
+
+    <dimen name="delivery_pick_suc_btn_cancel_layout_width">550dp</dimen>
+    <dimen name="delivery_pick_suc_btn_cancel_layout_height">124dp</dimen>
+    <dimen name="delivery_pick_suc_btn_cancel_marginTop">617dp</dimen>
+    <dimen name="delivery_pick_suc_btn_cancel_marginStart">1240dp</dimen>
+
+    <dimen name="delivery_pick_suc_btn_cancel_image_layout_width">44dp</dimen>
+    <dimen name="delivery_pick_suc_btn_cancel_image_layout_height">44dp</dimen>
+
+    <dimen name="delivery_pick_suc_btn_cancel_text_layout_width">168dp</dimen>
+    <dimen name="delivery_pick_suc_btn_cancel_text_layout_height">60dp</dimen>
+    <dimen name="delivery_pick_suc_btn_cancel_text_size">42sp</dimen>
+    <dimen name="delivery_pick_suc_btn_cancel_text_marginStart">20dp</dimen>
+
+    <dimen name="delivery_pick_suc_btn_finish_layout_width">550dp</dimen>
+    <dimen name="delivery_pick_suc_btn_finish_layout_height">124dp</dimen>
+    <dimen name="delivery_pick_suc_btn_finish_layout_marginTop">781dp</dimen>
+    <dimen name="delivery_pick_suc_btn_finish_layout_marginStart">1240dp</dimen>
+
+    <dimen name="delivery_pick_suc_btn_finish_image_layout_width">44dp</dimen>
+    <dimen name="delivery_pick_suc_btn_finish_image_layout_height">44dp</dimen>
+
+    <dimen name="delivery_pick_suc_btn_finish_text_layout_width">168dp</dimen>
+    <dimen name="delivery_pick_suc_btn_finish_text_layout_height">60dp</dimen>
+    <dimen name="delivery_pick_suc_btn_finish_text_size">42sp</dimen>
+    <dimen name="delivery_pick_suc_btn_finish_text_marginStart">20dp</dimen>
+
+    <dimen name="delivery_pick_suc_report_abnormal_layout_width">120dp</dimen>
+    <dimen name="delivery_pick_suc_report_abnormal_layout_height">37dp</dimen>
+    <dimen name="delivery_pick_suc_report_abnormal_layout_marginTop">947dp</dimen>
+    <dimen name="delivery_pick_suc_report_abnormal_layout_marginStart">1455dp</dimen>
+
+    <dimen name="delivery_pick_suc_report_abnormal_text_layout_width">168dp</dimen>
+    <dimen name="delivery_pick_suc_report_abnormal_text_layout_height">60dp</dimen>
+    <dimen name="delivery_pick_suc_report_abnormal_text_size">42sp</dimen>
+
+    <dimen name="delivery_pick_suc_recycler_layout_width">470dp</dimen>
+    <dimen name="delivery_pick_suc_recycler_layout_height">384dp</dimen>
+    <dimen name="delivery_pick_suc_recycler_layout_marginTop">307dp</dimen>
+    <dimen name="delivery_pick_suc_recycler_layout_marginStart">1280dp</dimen>
+
+    <!-- 机器人 abnormal page -->
+    <dimen name="abnormal_image_layout_width">421dp</dimen>
+    <dimen name="abnormal_image_layout_height">421dp</dimen>
+    <dimen name="abnormal_image_layout_marginTop">180dp</dimen>
+    <dimen name="abnormal_image_layout_marginStart">1125dp</dimen>
+
+    <!-- working page -->
+    <dimen name="working_top_layout_marginTop">69dp</dimen>
+
+    <dimen name="working_top_image_layout_width">40dp</dimen>
+    <dimen name="working_top_image_layout_height">40dp</dimen>
+
+    <dimen name="working_top_text_size">40sp</dimen>
+    <dimen name="working_top_text_layout_marginStart">30dp</dimen>
+
+    <dimen name="working_center_image_layout_width">858dp</dimen>
+    <dimen name="working_center_image_layout_height">858dp</dimen>
+
+    <!-- dialog -->
+    <dimen name="dialog_layout_width">630dp</dimen>
+
+    <dimen name="dialog_close_layout_width">80dp</dimen>
+    <dimen name="dialog_close_layout_height">80dp</dimen>
+
+    <dimen name="dialog_close_image_layout_width">19dp</dimen>
+    <dimen name="dialog_close_image_layout_height">19dp</dimen>
+
+
+    <dimen name="dialog_title_text_layout_height">36dp</dimen>
+    <dimen name="dialog_title_text_layout_marginTop">40dp</dimen>
+    <dimen name="dialog_title_text_layout_size">30sp</dimen>
+
+    <dimen name="dialog_center_image_layout_width">252dp</dimen>
+    <dimen name="dialog_center_image_layout_height">252dp</dimen>
+    <dimen name="dialog_center_image_layout_marginTop">114dp</dimen>
+
+    <dimen name="dialog_center_recycler_layout_width">470dp</dimen>
+    <dimen name="dialog_center_recycler_layout_height">252dp</dimen>
+    <dimen name="dialog_center_recycler_layout_marginTop">114dp</dimen>
+
+    <dimen name="dialog_line_middle_layout_height">1dp</dimen>
+    <dimen name="dialog_line_middle_layout_marginTop">401dp</dimen>
+
+    <dimen name="dialog_bottom_layout_height">110dp</dimen>
+    <dimen name="dialog_bottom_layout_marginTop">402dp</dimen>
+
+    <dimen name="dialog_bottom_text_size">32sp</dimen>
+
+    <!--item bizbin -->
+    <dimen name="item_bizbin_layout_width">190dp</dimen>
+    <dimen name="item_bizbin_layout_height">88dp</dimen>
+    <dimen name="item_bizbin_layout_marginTop">30dp</dimen>
+    <dimen name="item_bizbin_layout_marginStart">30dp</dimen>
+
+    <dimen name="item_bizbin_text_size">32sp</dimen>
+
+    <!-- toast -->
+    <dimen name="toast_text_layout_width">434dp</dimen>
+    <dimen name="toast_text_layout_height">90dp</dimen>
+    <dimen name="toast_text_size">30sp</dimen>
+</resources>

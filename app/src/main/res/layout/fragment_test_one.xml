@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.neil.test.widget.nodeprogressbar.NodeProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="800dp"
+            android:layout_height="96dp"
+            app:bottomTxtColor="#FF999999"
+            app:bottomTxtEnable="true"
+            app:bottomTxtGap="20dp"
+            app:bottomTxtSize="20sp"
+            app:bottomTxtStyle="common"
+            app:centerReachedTxtEnable="true"
+            app:centerReachedTxtColor="#FFFFFFFF"
+            app:centerReachedTxtSize="28sp"
+            app:centerUnReachedTxtEnable="true"
+            app:centerUnReachedTxtColor="#FFCDCDD7"
+            app:centerUnReachedTxtSize="28sp"
+            app:centerSucceed="@drawable/ic_init_suc"
+            app:bottomReachedTxtColor="@color/text_red"
+            app:bottomReachedTxtStyle="common"
+            app:lineWidth="2dp"
+            app:nodeCount="5"
+            app:nodeReached="@drawable/node_reached"
+            app:nodeFailed="@drawable/node_finished"
+            app:nodeHeight="48dp"
+            app:nodeSucceed="@drawable/node_finished"
+            app:nodeUnreached="@drawable/node_unreached"
+            app:nodeWidth="48dp"
+            app:reachedLineColor="#99CDCDD7"
+            app:regionWidth="48dp"
+            app:unreachedLineColor="#99CDCDD7"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -42,4 +42,12 @@
     <!--登录界面 忘记密码 新用户注册 文字的颜色-->
     <color name="color_login_text">#FE9B00</color>
 
+    <color name="T_all">#00000000</color>
+    <color name="fun_line">#FF979797</color>
+
+    <color name="text_red">#ffd72f2f</color>
+    <color name="text_black">#FF323232</color>
+    <color name="text_white">#ffff</color>
+    <color name="text_gray">#666</color>
+    <color name="text_light_gray">#333</color>
 </resources>

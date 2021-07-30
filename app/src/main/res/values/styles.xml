@@ -31,6 +31,14 @@
         <item name="colorAccent">@color/colorMainDrawerAccent</item>
     </style>
 
+
+    <style name="keyboard_style">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+    </style>
+
     <style name="customDialog" parent="android:style/Theme.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowNoTitle">true</item>
@@ -39,10 +47,619 @@
         <item name="android:backgroundDimEnabled">true</item>
     </style>
 
-    <style name="keyboard_style">
-        <item name="android:layout_width">100dp</item>
-        <item name="android:layout_height">100dp</item>
-        <item name="android:layout_marginTop">5dp</item>
-        <item name="android:layout_marginStart">5dp</item>
+
+    <style name="input_style">
+
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">@dimen/input_width</item>
+        <item name="android:layout_height">@dimen/input_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/input_text_size</item>
+<!--        <item name="android:background">@drawable/code_edit_text_background</item>-->
     </style>
+
+    <style name="top_layout_style">
+        <item name="android:layout_width">@dimen/top_layout_width</item>
+        <item name="android:layout_height">@dimen/top_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/top_layout_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/top_layout_marginStart</item>
+    </style>
+    <style name="top_image_style">
+        <item name="android:layout_width">@dimen/top_image_width</item>
+        <item name="android:layout_height">@dimen/top_image_height</item>
+        <item name="android:layout_marginStart">@dimen/top_image_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/top_image_marginTop</item>
+        <item name="android:src">@drawable/top_image</item>
+    </style>
+
+    <style name="top_text_style">
+        <item name="android:layout_width">@dimen/top_text_width</item>
+        <item name="android:layout_height">@dimen/top_text_height</item>
+        <item name="android:layout_marginStart">@dimen/top_text_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/top_text_marginTop</item>
+        <item name="android:textSize">@dimen/top_text_size</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="top_count_down_style">
+        <item name="android:layout_width">@dimen/top_count_down_width</item>
+        <item name="android:layout_height">@dimen/top_count_down_height</item>
+        <item name="android:layout_marginStart">@dimen/top_count_down_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/top_count_down_marginTop</item>
+    </style>
+
+    <style name="left_layout_style">
+        <item name="android:layout_width">@dimen/left_layout_width</item>
+        <item name="android:layout_height">@dimen/left_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/left_layout_marginStart</item>
+        <item name="android:layout_marginEnd">@dimen/left_layout_marginEnd</item>
+        <item name="android:layout_marginTop">@dimen/left_layout_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/left_layout_marginBottom</item>
+<!--        <item name="android:background">@drawable/left_right_background</item>-->
+        <item name="android:elevation">3dp</item>
+        <item name="android:translationZ">3dp</item>
+        <item name="android:outlineProvider">background</item>
+
+    </style>
+
+    <style name="right_layout_style">
+        <item name="android:layout_width">@dimen/right_layout_width</item>
+        <item name="android:layout_height">@dimen/right_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/right_layout_marginStart</item>
+        <item name="android:layout_marginEnd">@dimen/right_layout_marginEnd</item>
+        <item name="android:layout_marginTop">@dimen/right_layout_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/right_layout_marginBottom</item>
+<!--        <item name="android:background">@drawable/left_right_background</item>-->
+        <item name="android:elevation">3dp</item>
+        <item name="android:translationZ">3dp</item>
+        <item name="android:outlineProvider">background</item>
+    </style>
+
+
+    <style name="bottom_di_pan_image_style">
+        <item name="android:layout_width">@dimen/bottom_di_pan_image_layout_width</item>
+        <item name="android:layout_height">@dimen/bottom_di_pan_image_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/bottom_di_pan_image_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/bottom_di_pan_image_marginStart</item>
+        <item name="android:src">@drawable/bottom_di_pan</item>
+    </style>
+
+    <style name="ready_go_car_image">
+        <item name="android:layout_width">@dimen/ready_go_car_image_layout_width</item>
+        <item name="android:layout_height">@dimen/ready_go_car_image_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/ready_go_car_image_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/ready_go_car_image_marginTop</item>
+        <item name="android:src">@drawable/ready_go_car</item>
+    </style>
+
+    <style name="ready_go_location">
+        <item name="android:layout_width">@dimen/ready_go_location_image_layout_width</item>
+        <item name="android:layout_height">@dimen/ready_go_location_image_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/ready_go_location_image_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/ready_go_location_image_marginTop</item>
+        <item name="android:src">@drawable/ready_go_location</item>
+    </style>
+
+    <style name="ready_go_route">
+        <item name="android:layout_width">@dimen/ready_go_route_image_layout_width</item>
+        <item name="android:layout_height">@dimen/ready_go_route_image_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/ready_go_route_image_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/ready_go_route_image_marginTop</item>
+        <item name="android:src">@drawable/ready_go_route</item>
+    </style>
+
+    <style name="car_info_head_image">
+        <item name="android:layout_width">@dimen/car_info_head_image_layout_width</item>
+        <item name="android:layout_height">@dimen/car_info_head_image_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/car_info_head_image_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/car_info_head_image_marginTop</item>
+    </style>
+
+    <style name="car_info_bian_hao_text">
+        <item name="android:layout_width">@dimen/car_info_bianhao_text_layout_width</item>
+        <item name="android:layout_height">@dimen/car_info_bianhao_text_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/car_info_bianhao_text_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/car_info_bianhao_text_marginTop</item>
+        <item name="android:textSize">@dimen/car_info_bianhao_text_size</item>
+    </style>
+
+    <style name="car_info_car_no_text">
+        <item name="android:layout_width">@dimen/car_info_no_text_layout_width</item>
+        <item name="android:layout_height">@dimen/car_info_no_text_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/car_info_no_text_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/car_info_no_text_marginTop</item>
+        <item name="android:textSize">@dimen/car_info_no_text_size</item>
+    </style>
+
+    <style name="car_info_frame_layout_style">
+        <item name="android:layout_width">@dimen/car_info_frame_layout_width</item>
+        <item name="android:layout_height">@dimen/car_info_frame_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/car_info_frame_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/car_info_frame_marginTop</item>
+    </style>
+
+    <style name="car_info_bar_code_border_style">
+        <item name="android:layout_width">@dimen/car_info_bar_code_border_layout_width</item>
+        <item name="android:layout_height">@dimen/car_info_bar_code_border_layout_height</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/bar_code_bold</item>
+    </style>
+
+    <style name="car_info_bar_code_style">
+        <item name="android:layout_width">@dimen/car_info_bar_code_layout_width</item>
+        <item name="android:layout_height">@dimen/car_info_bar_code_layout_height</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/default_bar_code</item>
+    </style>
+
+    <style name="car_info_cons_style">
+        <item name="android:layout_width">@dimen/car_info_center_cons_layout_width</item>
+        <item name="android:layout_height">@dimen/car_info_center_cons_layout_height</item>
+        <item name="android:layout_gravity">center</item>
+<!--        <item name="android:background">@drawable/car_info_linear_background</item>-->
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="car_info_cons_image_style">
+        <item name="android:layout_width">@dimen/car_info_center_cons_image_layout_width</item>
+        <item name="android:layout_height">@dimen/car_info_center_cons_image_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/car_info_center_cons_image_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/car_info_center_cons_image_marginTop</item>
+        <item name="android:src">@drawable/car_info_cons_image</item>
+    </style>
+
+    <style name="car_info_cons_text_style">
+        <item name="android:layout_width">@dimen/car_info_center_cons_text_layout_width</item>
+        <item name="android:layout_height">@dimen/car_info_center_cons_text_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/car_info_center_cons_text_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/car_info_center_cons_text_marginTop</item>
+        <item name="android:textSize">@dimen/car_info_center_cons_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+<!--        <item name="android:text">@string/car_info_tip</item>-->
+    </style>
+
+    <!--放货/取货成功 -->
+    <style name="delivery_pick_suc_car_bg_style">
+        <item name="android:layout_width">@dimen/delivery_pick_suc_car_bg_image_layout_width</item>
+        <item name="android:layout_height">@dimen/delivery_pick_suc_car_bg_image_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/delivery_pick_suc_car_bg_image_marginTop</item>
+        <item name="android:layout_marginEnd">@dimen/delivery_pick_suc_car_bg_image_marginEnd</item>
+        <item name="android:src">@drawable/suc_car_bg</item>
+    </style>
+
+    <style name="frame_layout_suc_car_6">
+        <item name="android:layout_width">@dimen/frame_layout_suc_car_image_layout_width</item>
+        <item name="android:layout_height">@dimen/frame_layout_suc_car_image_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/frame_layout_suc_car_image_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/frame_layout_suc_car_image_marginStart</item>
+        <item name="android:background">@drawable/suc_car_6</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="suc_car_6_bin_1">
+        <item name="android:layout_width">@dimen/suc_car_bin_small_layout_width</item>
+        <item name="android:layout_height">@dimen/suc_car_bin_small_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/suc_car_6_bin_1_image_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/suc_car_6_bin_1_image_marginStart</item>
+        <item name="android:src">@drawable/bin_small_1_left</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="suc_car_6_bin_2">
+        <item name="android:layout_width">@dimen/suc_car_bin_small_layout_width</item>
+        <item name="android:layout_height">@dimen/suc_car_bin_small_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/suc_car_6_bin_2_image_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/suc_car_6_bin_2_image_marginStart</item>
+        <item name="android:src">@drawable/bin_small_1_right</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="suc_car_6_bin_3">
+        <item name="android:layout_width">@dimen/suc_car_bin_small_layout_width</item>
+        <item name="android:layout_height">@dimen/suc_car_bin_small_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/suc_car_6_bin_3_image_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/suc_car_6_bin_3_image_marginStart</item>
+        <item name="android:src">@drawable/bin_small_2_left</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="suc_car_6_bin_4">
+        <item name="android:layout_width">@dimen/suc_car_bin_small_layout_width</item>
+        <item name="android:layout_height">@dimen/suc_car_bin_small_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/suc_car_6_bin_4_image_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/suc_car_6_bin_4_image_marginStart</item>
+        <item name="android:src">@drawable/bin_small_2_right</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="suc_car_6_bin_5">
+        <item name="android:layout_width">@dimen/suc_car_bin_large_layout_width</item>
+        <item name="android:layout_height">@dimen/suc_car_bin_large_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/suc_car_6_bin_5_image_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/suc_car_6_bin_5_image_marginStart</item>
+        <item name="android:src">@drawable/bin_large_1_left</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="suc_car_6_bin_6">
+        <item name="android:layout_width">@dimen/suc_car_bin_large_layout_width</item>
+        <item name="android:layout_height">@dimen/suc_car_bin_large_layout_height</item>
+        <item name="android:layout_marginTop">404dp</item>
+        <item name="android:layout_marginStart">251dp</item>
+        <item name="android:src">@drawable/bin_large_1_right</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="suc_car_8_bin_1">
+        <item name="android:layout_width">@dimen/suc_car_bin_small_layout_width</item>
+        <item name="android:layout_height">@dimen/suc_car_bin_small_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/suc_car_8_bin_1_image_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/suc_car_8_bin_1_image_marginStart</item>
+        <item name="android:src">@drawable/bin_small_1_left</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="suc_car_8_bin_2">
+        <item name="android:layout_width">@dimen/suc_car_bin_small_layout_width</item>
+        <item name="android:layout_height">@dimen/suc_car_bin_small_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/suc_car_8_bin_2_image_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/suc_car_8_bin_2_image_marginStart</item>
+        <item name="android:src">@drawable/bin_small_1_right</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="suc_car_8_bin_3">
+        <item name="android:layout_width">@dimen/suc_car_bin_small_layout_width</item>
+        <item name="android:layout_height">@dimen/suc_car_bin_small_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/suc_car_8_bin_3_image_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/suc_car_8_bin_3_image_marginStart</item>
+        <item name="android:src">@drawable/bin_small_2_left</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="suc_car_8_bin_4">
+        <item name="android:layout_width">@dimen/suc_car_bin_small_layout_width</item>
+        <item name="android:layout_height">@dimen/suc_car_bin_small_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/suc_car_8_bin_4_image_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/suc_car_8_bin_4_image_marginStart</item>
+        <item name="android:src">@drawable/bin_small_2_right</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="suc_car_8_bin_5">
+        <item name="android:layout_width">@dimen/suc_car_bin_small_layout_width</item>
+        <item name="android:layout_height">@dimen/suc_car_bin_small_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/suc_car_8_bin_5_image_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/suc_car_8_bin_5_image_marginStart</item>
+        <item name="android:src">@drawable/bin_small_1_left</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="suc_car_8_bin_6">
+        <item name="android:layout_width">@dimen/suc_car_bin_small_layout_width</item>
+        <item name="android:layout_height">@dimen/suc_car_bin_small_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/suc_car_8_bin_6_image_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/suc_car_8_bin_6_image_marginStart</item>
+        <item name="android:src">@drawable/bin_small_1_right</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="suc_car_8_bin_7">
+        <item name="android:layout_width">@dimen/suc_car_bin_small_layout_width</item>
+        <item name="android:layout_height">@dimen/suc_car_bin_small_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/suc_car_8_bin_7_image_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/suc_car_8_bin_7_image_marginStart</item>
+        <item name="android:src">@drawable/bin_small_2_left</item>
+        <item name="android:visibility">invisible</item>
+
+    </style>
+
+    <style name="suc_car_8_bin_8">
+        <item name="android:layout_width">@dimen/suc_car_bin_small_layout_width</item>
+        <item name="android:layout_height">@dimen/suc_car_bin_small_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/suc_car_8_bin_8_image_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/suc_car_8_bin_8_image_marginStart</item>
+        <item name="android:src">@drawable/bin_small_2_right</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="frame_layout_suc_car_8">
+        <item name="android:layout_width">@dimen/frame_layout_suc_car_image_layout_width</item>
+        <item name="android:layout_height">@dimen/frame_layout_suc_car_image_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/frame_layout_suc_car_image_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/frame_layout_suc_car_image_marginStart</item>
+        <item name="android:background">@drawable/suc_car_8</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="abnormal_image_style">
+        <item name="android:layout_width">@dimen/abnormal_image_layout_width</item>
+        <item name="android:layout_height">@dimen/abnormal_image_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/abnormal_image_layout_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/abnormal_image_layout_marginTop</item>
+        <item name="android:src">@drawable/bot_abnormal</item>
+    </style>
+
+    <style name="working_top_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/working_top_layout_marginTop</item>
+    </style>
+
+    <style name="working_top_image_style">
+        <item name="android:layout_width">@dimen/working_top_image_layout_width</item>
+        <item name="android:layout_height">@dimen/working_top_image_layout_height</item>
+
+    </style>
+
+    <style name="working_top_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/working_top_text_size</item>
+        <item name="android:textColor">#7A7A8B</item>
+        <item name="android:layout_marginStart">@dimen/working_top_text_layout_marginStart</item>
+    </style>
+
+    <style name="working_center_icon_style">
+        <item name="android:layout_height">@dimen/working_center_image_layout_height</item>
+        <item name="android:layout_width">@dimen/working_center_image_layout_width</item>
+    </style>
+
+    <style name="delivery_pick_suc_count_down_style">
+        <item name="android:layout_width">@dimen/delivery_pick_suc_count_down_layout_width</item>
+        <item name="android:layout_height">@dimen/delivery_pick_suc_count_down_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/delivery_pick_suc_count_down_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/delivery_pick_suc_count_down_marginStart</item>
+    </style>
+
+    <style name="delivery_pick_suc_btn_cancel_layout_style">
+        <item name="android:layout_width">@dimen/delivery_pick_suc_btn_cancel_layout_width</item>
+        <item name="android:layout_height">@dimen/delivery_pick_suc_btn_cancel_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/delivery_pick_suc_btn_cancel_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/delivery_pick_suc_btn_cancel_marginStart</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+<!--        <item name="android:background">@drawable/btn_cancel_delivery_background</item>-->
+    </style>
+
+    <style name="delivery_pick_suc_btn_cancel_image_style">
+        <item name="android:layout_width">@dimen/delivery_pick_suc_btn_cancel_image_layout_width</item>
+        <item name="android:layout_height">@dimen/delivery_pick_suc_btn_cancel_image_layout_height</item>
+        <item name="android:background">@drawable/ic_no</item>
+    </style>
+
+    <style name="delivery_pick_suc_btn_cancel_text_style">
+        <item name="android:layout_width">@dimen/delivery_pick_suc_btn_cancel_text_layout_width</item>
+        <item name="android:layout_height">@dimen/delivery_pick_suc_btn_cancel_text_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/delivery_pick_suc_btn_cancel_text_marginStart</item>
+        <item name="android:textColor">#FF323232</item>
+        <item name="android:textSize">@dimen/delivery_pick_suc_btn_cancel_text_size</item>
+<!--        <item name="android:text">@string/cancel_delivery</item>-->
+    </style>
+
+    <style name="delivery_pick_suc_btn_finish_layout_style">
+        <item name="android:layout_width">@dimen/delivery_pick_suc_btn_finish_layout_width</item>
+        <item name="android:layout_height">@dimen/delivery_pick_suc_btn_finish_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/delivery_pick_suc_btn_finish_layout_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/delivery_pick_suc_btn_finish_layout_marginStart</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+<!--        <item name="android:background">@drawable/btn_finish_delivery_background</item>-->
+    </style>
+
+    <style name="delivery_pick_suc_btn_finish_image_style">
+        <item name="android:layout_width">@dimen/delivery_pick_suc_btn_finish_image_layout_width</item>
+        <item name="android:layout_height">@dimen/delivery_pick_suc_btn_finish_image_layout_height</item>
+        <item name="android:src">@drawable/ic_yes</item>
+    </style>
+
+    <style name="delivery_pick_suc_btn_finish_text_style">
+        <item name="android:layout_width">@dimen/delivery_pick_suc_btn_finish_text_layout_width</item>
+        <item name="android:layout_height">@dimen/delivery_pick_suc_btn_finish_text_layout_height</item>
+        <item name="android:layout_marginStart">@dimen/delivery_pick_suc_btn_finish_text_marginStart</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">@dimen/delivery_pick_suc_btn_finish_text_size</item>
+<!--        <item name="android:text">@string/finish_pick_up</item>-->
+    </style>
+
+    <style name="report_abnormal_layout_style">
+        <item name="android:layout_width">@dimen/delivery_pick_suc_report_abnormal_layout_width</item>
+        <item name="android:layout_height">@dimen/delivery_pick_suc_report_abnormal_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/delivery_pick_suc_report_abnormal_layout_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/delivery_pick_suc_report_abnormal_layout_marginStart</item>
+        <item name="android:orientation">horizontal</item>
+<!--        <item name="android:background">@drawable/btn_report_background</item>-->
+        <item name="android:gravity">center</item>
+    </style>
+
+   <style name="report_abnormal_text_style">
+       <item name="android:gravity">top|center_horizontal</item>
+       <item name="android:layout_width">@dimen/delivery_pick_suc_report_abnormal_text_layout_width</item>
+       <item name="android:layout_height">@dimen/delivery_pick_suc_report_abnormal_text_layout_height</item>
+<!--       <item name="android:text">@string/report_abnormal</item>-->
+       <item name="android:textSize">@dimen/delivery_pick_suc_report_abnormal_text_size</item>
+       <item name="android:textColor">#B37A7A8B</item>
+
+   </style>
+
+    <style name="pick_suc_recycler_style">
+        <item name="android:layout_width">@dimen/delivery_pick_suc_recycler_layout_width</item>
+        <item name="android:layout_height">@dimen/delivery_pick_suc_recycler_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/delivery_pick_suc_recycler_layout_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/delivery_pick_suc_recycler_layout_marginStart</item>
+    </style>
+
+
+    <style name="dialog_style">
+        <item name="android:layout_width">@dimen/dialog_layout_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+
+    </style>
+
+    <style name="dialog_close_layout_style">
+        <item name="android:layout_width">@dimen/dialog_close_layout_width</item>
+        <item name="android:layout_height">@dimen/dialog_close_layout_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">top|end</item>
+    </style>
+
+    <style name="dialog_close_image_style">
+        <item name="android:layout_width">@dimen/dialog_close_image_layout_width</item>
+        <item name="android:layout_height">@dimen/dialog_close_image_layout_height</item>
+        <item name="android:src">@drawable/ic_close</item>
+    </style>
+
+    <style name="dialog_title_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/dialog_title_text_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/dialog_title_text_layout_marginTop</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+<!--        <item name="android:text">@string/dialog_tip_text</item>-->
+        <item name="android:textSize">@dimen/dialog_title_text_layout_size</item>
+        <item name="android:textColor">#FF323232</item>
+
+    </style>
+
+    <style name="dialog_icon_style">
+        <item name="android:layout_width">@dimen/dialog_center_image_layout_width</item>
+        <item name="android:layout_height">@dimen/dialog_center_image_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/dialog_center_image_layout_marginTop</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:src">@drawable/dia_not_put_in</item>
+    </style>
+
+    <style name="dialog_recycler_style">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">@dimen/dialog_center_recycler_layout_width</item>
+        <item name="android:layout_marginTop">@dimen/dialog_center_recycler_layout_marginTop</item>
+        <item name="android:layout_height">@dimen/dialog_center_recycler_layout_height</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="dialog_line_middle_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dialog_line_middle_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/dialog_line_middle_layout_marginTop</item>
+        <item name="android:background">@color/fun_line</item>
+    </style>
+
+    <style name="dialog_bottom_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/dialog_bottom_layout_marginTop</item>
+        <item name="android:layout_height">@dimen/dialog_bottom_layout_height</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="dialog_bottom_cancel_text_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:text">Cancel</item>
+        <item name="android:textColor">#FF969696</item>
+        <item name="android:textSize">@dimen/dialog_bottom_text_size</item>
+    </style>
+    <style name="dialog_line_bottom_style">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/fun_line</item>
+    </style>
+
+
+    <style name="dialog_bottom_confirm_text_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:text">Confirm</item>
+        <item name="android:textColor">#FFF51616</item>
+        <item name="android:textSize">@dimen/dialog_bottom_text_size</item>
+    </style>
+
+    <style name="item_bizbin_layout_style">
+        <item name="android:layout_width">@dimen/item_bizbin_layout_width</item>
+        <item name="android:layout_height">@dimen/item_bizbin_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/item_bizbin_layout_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/item_bizbin_layout_marginStart</item>
+        <item name="android:gravity">center</item>
+        <item name="android:descendantFocusability">blocksDescendants</item>
+    </style>
+
+    <style name="item_bizbin_text_style">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">TextView</item>
+        <item name="android:textColor">#FF323232</item>
+        <item name="android:textSize">@dimen/item_bizbin_text_size</item>
+    </style>
+
+    <style name="toast_text_style">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">@dimen/toast_text_layout_height</item>
+        <item name="android:layout_width">@dimen/toast_text_layout_width</item>
+        <item name="android:text">Toast</item>
+        <item name="android:textSize">@dimen/toast_text_size</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <declare-styleable name="NodeProgressBar">
+        <attr name="nodeCount" format="integer" />
+        <attr name="nodeWidth" format="dimension" />
+        <attr name="nodeHeight" format="dimension" />
+        <attr name="nodeUnreached" format="reference" />
+        <attr name="nodeSucceed" format="reference" />
+        <attr name="nodeFailed" format="reference" />
+        <attr name="nodeReached" format="reference" />
+        <attr name="nodeRatio" format="float" />
+
+        <attr name="topTxtEnable" format="boolean" />
+        <attr name="topTxtSize" format="dimension" />
+        <attr name="topTxtColor" format="color" />
+        <attr name="topTxtGap" format="dimension" />
+        <attr name="topTxtStyle" format="enum">
+            <enum name="common" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+
+        <attr name="centerReachedTxtEnable" format="boolean"/>
+        <attr name="centerReachedTxtSize" format="dimension"/>
+        <attr name="centerReachedTxtColor" format="color"/>
+
+        <attr name="centerUnReachedTxtEnable" format="boolean"/>
+        <attr name="centerUnReachedTxtSize" format="dimension"/>
+        <attr name="centerUnReachedTxtColor" format="color"/>
+
+        <attr name="centerSucceed" format="reference"/>
+
+        <attr name="bottomTxtEnable" format="boolean" />
+        <attr name="bottomTxtSize" format="dimension" />
+        <attr name="bottomTxtColor" format="color" />
+        <attr name="bottomTxtGap" format="dimension" />
+        <attr name="bottomTxtStyle" format="enum">
+            <enum name="common" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+        <attr name="bottomReachedTxtColor" format="color" />
+        <attr name="bottomReachedTxtStyle" format="enum">
+            <enum name="common" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+
+        <attr name="lineWidth" format="dimension" />
+        <attr name="reachedLineColor" format="color" />
+        <attr name="unreachedLineColor" format="color" />
+
+        <attr name="regionWidth" format="dimension" />
+    </declare-styleable>
 </resources>

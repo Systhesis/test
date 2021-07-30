@@ -17,6 +17,7 @@ import androidx.fragment.app.Fragment;
  *
  */
 public abstract class BaseBindingFragment<VDB extends ViewDataBinding> extends Fragment {
+    protected final String TAG = getClass().getSimpleName();
     protected VDB mBinding;
 
     @Override
